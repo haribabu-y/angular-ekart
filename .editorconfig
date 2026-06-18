@@ -1,6 +1,10 @@
 # Editor configuration, see https://editorconfig.org
 root = true
 
+#  it is used to setup the team environment for code formatting and consistency across different editors and IDEs. 
+# It defines the coding style and formatting rules for the project, ensuring that all team members follow the same conventions when writing code. 
+# This helps to improve code readability and maintainability, as well as reduce merge conflicts caused by inconsistent formatting.
+
 [*]
 charset = utf-8
 indent_style = space

@@ -1,0 +1,4 @@
+node-modules: containes all the dependent libraries are present in the file. all the third party libraries are present in this file and it is a git ignorable file.
+after we pull the project from the git we use the commend "npm install" to iinstall all the dependences for the project
+
+package.json file: it one of the importtant file in the project. it contains the configuration of the projects and version of the dependences. it containes the dependences packeages of the project. when we run npm install it download all the listed packages present in this file.
