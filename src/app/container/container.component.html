@@ -18,5 +18,37 @@
         <p>Current element of the list: {{item}}</p>
     </div> -->
     <product-list [searchText]="searchText" #productListComponent></product-list>
-    <product-detail *ngIf="productListComponent.selectedProduct"></product-detail>
+    <product-detail *ngIf="productListComponent.selectedProduct"
+        [productListCom]="productListComponent"></product-detail>
+
+    <div class="ekart-featured-products">
+        <div class="ekart-featured-product-heading">
+            <h1>Latest Arrivals in Popular Brands</h1>
+        </div>
+
+        <div class="ekart-featured-product-item">
+            <h3 class="title">New Arrivals in Nike</h3>
+            <p class="description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <button class="call-to-action">Learn More</button>
+        </div>
+        <div class="ekart-featured-product-item">
+            <h3 class="title">New Arrivals in Nike</h3>
+            <p class="description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <button class="call-to-action">Learn More</button>
+        </div>
+        <div class="ekart-featured-product-item">
+            <h3 class="title">New Arrivals in Nike</h3>
+            <p class="description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <button class="call-to-action">Learn More</button>
+        </div>
+    </div>
 </div>
