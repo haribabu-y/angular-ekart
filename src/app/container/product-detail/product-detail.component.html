@@ -11,9 +11,9 @@
                 <h2>{{product.name}}</h2>
             </div>
             <div class="ekart-product-detail-gbc">
-                <span>{{product.gender}}</span>
-                <span>{{product.brand}}</span>
-                <span>{{product.category}}</span>
+                <span [setBackgroung]="'red'" [textcolor]="'yellow'">{{product.gender}}</span>
+                <span [setBackgroung]="'yellow'" [textcolor]="'black'">{{product.brand}}</span>
+                <span [setBackgroung]="'black'" [textcolor]="'white'">{{product.category}}</span>
             </div>
             <div class="ekart-product-detail-price">
                 <p>

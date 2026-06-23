@@ -14,6 +14,11 @@ import { ProductListComponent } from './container/product-list/product-list.comp
 import { ProductComponent } from './container/product-list/product/product.component';
 import { FilterComponent } from './container/product-list/filter/filter.component';
 import { ProductDetailComponent } from './container/product-detail/product-detail.component';
+import { FeaturedBrandsComponent } from './container/featured-brands/featured-brands.component';
+import { setBackground } from './Custume-directives/setBackground.directive';
+import { HighlightDirective } from './Custume-directives/highlight.directive';
+import { AppHoverDirective } from './Custume-directives/app-hover.directive';
+import { DisableProductDirective } from './custume-directives/disable-product.directive';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { ProductDetailComponent } from './container/product-detail/product-detai
     ProductListComponent,
     ProductComponent,
     FilterComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    FeaturedBrandsComponent,
+    setBackground,
+    HighlightDirective,
+    AppHoverDirective,
+    DisableProductDirective
   ],
   imports: [
     BrowserModule,
